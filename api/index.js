@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 app.use(passport.initialize())
 const jwt = require('jsonwebtoken')
 
-mongoose.connect('mongodb+srv://kapilpandey8080:kapil@cluster0.rp21dy5.mongodb.net/',
+mongoose.connect('MongoDB URI',
     /*{
         useNewUrlParser: true,
         useUnifiedTopology: true
